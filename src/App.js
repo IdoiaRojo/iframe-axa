@@ -13,7 +13,7 @@ function App() {
         src={url_staging}
         id="co-iframe"
         name="co-iframe"
-        sandbox="allow-same-origin allow-scripts"
+        sandbox="allow-scripts allow-popups allow-forms"
       ></iframe>
     </div>
   );
